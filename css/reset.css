@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img,
+video {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+p {
+    word-break: keep-all;
+}
+
+address {
+    font-style: normal;
+}
